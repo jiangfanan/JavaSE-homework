@@ -1,4 +1,4 @@
-package club;
+package club.banyuan.shape;
 
 public class Rectangle extends Shape{
    private int a;
@@ -22,4 +22,5 @@ public class Rectangle extends Shape{
     public String getShapeName() {
         return "矩形";
     }
+
 }

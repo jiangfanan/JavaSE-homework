@@ -1,4 +1,4 @@
-package club;
+package club.banyuan.shape;
 
 public class AreaCalculator {
 
@@ -6,4 +6,7 @@ public class AreaCalculator {
         System.out.println(shape.getShapeName() + "面积是" + String.format("%.1f", shape.area()));
         System.out.println(shape.getShapeName() + "周长是" + String.format("%.1f", shape.perimeter()));
     }
+
+
+
 }

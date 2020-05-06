@@ -1,4 +1,4 @@
-package club;
+package club.banyuan.shape;
 
 public class Circle extends Shape {
 
