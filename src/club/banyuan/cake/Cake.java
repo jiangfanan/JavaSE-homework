@@ -6,3 +6,4 @@ public abstract  class Cake {
     public  abstract  int setPrice();
 
 }
+
