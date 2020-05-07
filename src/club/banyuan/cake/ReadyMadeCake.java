@@ -5,11 +5,12 @@ public class ReadyMadeCake extends Cake{
     @Override
     public int setPrice() {
 
-        return (quantity*price);
+        return (quantity*this.price);
     }
-    public ReadyMadeCake(String name,int quantity){
+    public ReadyMadeCake(String name,int price,int quantity){
         this.name=name;
         this.quantity=quantity;
+        this.price=price;
     }
     public int showquantity(){
         return quantity;
