@@ -5,5 +5,6 @@ public abstract  class Cake {
     public String name;
     public  abstract  int setPrice();
 
+
 }
 
